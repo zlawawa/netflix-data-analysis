@@ -18,12 +18,15 @@
 Требуется Python 3 (или Anaconda). Библиотеки: pandas, matplotlib, jupyter (список в `requirements.txt`).
 
 1. Скачайте репозиторий (Code -> Download ZIP) и распакуйте. Файл `netflix_titles.csv` уже лежит рядом с ноутбуком
-2. В командной строке в папке проекта выполните:
+2. Один раз установите библиотеки:
 
        python -m pip install -r requirements.txt
+
+3. Запуск одной командой:
+
        python -m jupyter notebook netflix_analysis.ipynb
 
-3. В ноутбуке выберите Kernel -> Restart Kernel and Run All Cells
+4. В ноутбуке выберите Kernel -> Restart Kernel and Run All Cells
 
 Без запуска: результаты видны в `netflix_analysis.ipynb`
 
